@@ -116,8 +116,8 @@
                                                         <constraint firstAttribute="width" secondItem="8HJ-c2-aM6" secondAttribute="height" multiplier="398:307" id="PVR-5T-k5U"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTl-ub-I6H">
-                                                    <rect key="frame" x="8" y="325" width="45" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTl-ub-I6H">
+                                                    <rect key="frame" x="8" y="323" width="45" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -135,6 +135,7 @@
                                                 <constraint firstItem="7Fv-KW-uLh" firstAttribute="top" secondItem="8HJ-c2-aM6" secondAttribute="bottom" constant="8" id="PAB-T4-eIW"/>
                                                 <constraint firstAttribute="trailing" secondItem="8HJ-c2-aM6" secondAttribute="trailing" constant="8" id="RRB-nv-jpI"/>
                                                 <constraint firstItem="7Fv-KW-uLh" firstAttribute="leading" secondItem="KTl-ub-I6H" secondAttribute="trailing" constant="8" id="Ysj-q9-RVo"/>
+                                                <constraint firstItem="KTl-ub-I6H" firstAttribute="top" secondItem="8HJ-c2-aM6" secondAttribute="bottom" constant="8" id="ZfR-Po-GSM"/>
                                                 <constraint firstItem="7Fv-KW-uLh" firstAttribute="top" secondItem="8HJ-c2-aM6" secondAttribute="bottom" constant="8" id="cLB-hT-MK5"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="7Fv-KW-uLh" secondAttribute="bottom" constant="8" id="me3-zr-w64"/>
                                                 <constraint firstAttribute="trailing" secondItem="7Fv-KW-uLh" secondAttribute="trailing" constant="8" id="pg3-bl-wZy"/>
