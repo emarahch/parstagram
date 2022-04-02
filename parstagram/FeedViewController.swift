@@ -14,8 +14,8 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     func messageInputBar(_ inputBar: MessageInputBar, didPressSendButtonWith text: String) {
         //create the comment
         let comment = PFObject(className: "Comments")
-        comment["text"] = " this is a random comment"
-               comment["post"] = selectedPost
+        comment["text"] = text
+        comment["post"] = selectedPost
                comment["author"] = PFUser.current()!
        
                selectedPost.add(comment, forKey:"comments")
@@ -35,13 +35,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
          commentBar.inputTextView.resignFirstResponder()
     }
     
-    func messageInputBar(_ inputBar: MessageInputBar, didChangeIntrinsicContentTo size: CGSize) {
-        <#code#>
-    }
-    
-    func messageInputBar(_ inputBar: MessageInputBar, textViewTextDidChangeTo text: String) {
-        <#code#>
-    }
+ 
     
     let commentBar = MessageInputBar ()
     var showsCommentBar = false //so comment bar is not shown automatically
